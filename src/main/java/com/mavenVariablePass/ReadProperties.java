@@ -13,7 +13,7 @@ public class ReadProperties {
 
         ReadProperties app = new ReadProperties();
         Properties prop = app.loadPropertiesFile("config.properties");
-        prop.forEach((k, v) -> System.out.println(k + ":" + v));
+        prop.forEach((k, v) -> System.out.println("***************************%%%%%   "+k + ":" + v+" ***************************%%%%%"));
 
     }
 

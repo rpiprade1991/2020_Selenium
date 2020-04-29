@@ -22,9 +22,9 @@
         </profile>
 
         <profile>
-            <id>prod</id>
+            <id>sit</id>
             <properties>
-                <env>prod</env>
+                <env>sit</env>
             </properties>
         </profile>
 
